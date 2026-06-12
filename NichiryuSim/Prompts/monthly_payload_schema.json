@@ -1,0 +1,67 @@
+{
+  "type": "object",
+  "required": [
+    "type",
+    "month",
+    "monthlyReviewPayload",
+    "eventScenePayloads",
+    "relationshipPayloads",
+    "opportunityPayloads",
+    "archiveMemoryPayload"
+  ],
+  "properties": {
+    "type": { "const": "monthly_ai_payload_bundle" },
+    "month": { "type": "integer" },
+    "monthlyReviewPayload": {
+      "type": "object",
+      "required": ["title", "summary", "paragraphs"],
+      "properties": {
+        "title": { "type": "string" },
+        "summary": { "type": "string" },
+        "paragraphs": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "eventScenePayloads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["eventId", "title", "sceneText"],
+        "properties": {
+          "eventId": { "type": "string" },
+          "title": { "type": "string" },
+          "sceneText": { "type": "string" }
+        }
+      }
+    },
+    "relationshipPayloads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["characterId", "statusText"],
+        "properties": {
+          "characterId": { "type": "string" },
+          "statusText": { "type": "string" }
+        }
+      }
+    },
+    "opportunityPayloads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["opportunityId", "flavorText"],
+        "properties": {
+          "opportunityId": { "type": "string" },
+          "flavorText": { "type": "string" }
+        }
+      }
+    },
+    "archiveMemoryPayload": {
+      "type": "object",
+      "required": ["logTitle", "logText"],
+      "properties": {
+        "logTitle": { "type": "string" },
+        "logText": { "type": "string" }
+      }
+    }
+  }
+}

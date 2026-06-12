@@ -1,0 +1,5 @@
+﻿[
+  {"id":"workshop","title":"参加ゼミ Workshop","description":"和安静的女生共同整理一份魔法少女叙事资料。","risk":"会占用额外精力","reward":"推进关系与隐藏路线"},
+  {"id":"career_briefing","title":"Career Center 早期说明会","description":"提前了解日本新卒就活的时间线。","risk":"现实压力会上升","reward":"开启职业路线准备"},
+  {"id":"festival_creation","title":"报名校园祭创作企划","description":"把本月的积累变成十一月可以展示的作品。","risk":"后续月份需要持续投入","reward":"创作路线种子"}
+]

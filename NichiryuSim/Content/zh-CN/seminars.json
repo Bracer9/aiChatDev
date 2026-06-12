@@ -1,0 +1,6 @@
+﻿[
+  {"id":"magical_girl","name":"动漫产业文化：魔法少女研究","description":"从角色商品、动画制作与粉丝文化观察魔法少女题材。讨论常常从产业结构滑向某个变身镜头的细节。","theme":"动画产业、角色研究、粉丝文化","facultyIds":["media_culture"],"initialCharacterIds":["seminar_girl"],"startEventIds":["seminar_meeting"],"setFlags":["seminar.magical_girl"],"opportunityBias":["creation","relationship"]},
+  {"id":"visual_narrative","name":"影像叙事研究","description":"分析电影、短片和网络影像如何组织视线与时间。创作与研究并重，但不会遇见魔法少女研究组的人。","theme":"电影、短片、视觉叙事","facultyIds":["media_culture"],"initialCharacterIds":[],"startEventIds":[],"setFlags":["seminar.visual_narrative"],"opportunityBias":["creation","academic"]},
+  {"id":"business_case","name":"消费者行为与经营案例","description":"围绕真实企业案例进行讨论和发表。你会更早面对经历、数字和团队分工。","theme":"消费者行为、案例研究、发表","facultyIds":["business"],"initialCharacterIds":[],"startEventIds":[],"setFlags":["seminar.business_case"],"opportunityBias":["career","academic"]},
+  {"id":"intercultural","name":"跨文化传播研究","description":"研究语言、身份与沟通误差。课堂讨论很多，人与人的距离也因此更快发生变化。","theme":"跨文化、语言、沟通","facultyIds":["international_studies"],"initialCharacterIds":[],"startEventIds":[],"setFlags":["seminar.intercultural"],"opportunityBias":["language","relationship"]}
+]

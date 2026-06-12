@@ -1,0 +1,5 @@
+﻿[
+  {"id":"media_culture","name":"媒体文化学部","description":"动画、流行文化、影像和叙事研究交织在一起。创作机会多，但课题常常像深夜的弹窗一样突然出现。","theme":"创作、亚文化、研究会、校园祭企划","defaultSeminarId":"magical_girl","initialCoreDelta":{"creation":10,"academic":4,"relationship":3},"eventMonths":{"first_report":2,"career_center":4,"campus_festival":8}},
+  {"id":"business","name":"经营学部","description":"报告、案例讨论和小组发表从第一周就开始排队。这里更早逼你考虑钱、经历和现实世界的速度。","theme":"经营案例、发表、就职准备、财务压力","defaultSeminarId":"business_case","initialCoreDelta":{"career":10,"academic":6,"life":3},"eventMonths":{"first_report":1,"career_center":2,"campus_festival":9}},
+  {"id":"international_studies","name":"国际交流学部","description":"语言课、跨文化讨论和留学生支援活动占据日程。人际关系来得更早，也更考验表达的细腻程度。","theme":"语言、跨文化课堂、交流活动、人际关系","defaultSeminarId":"intercultural","initialCoreDelta":{"language":10,"relationship":6,"academic":3},"eventMonths":{"first_report":2,"career_center":3,"campus_festival":7}}
+]

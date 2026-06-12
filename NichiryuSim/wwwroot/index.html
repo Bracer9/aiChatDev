@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>日留学部模拟器 Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="desktop-scene">
+    <div class="monitor">
+      <div class="monitor-bezel">
+        <div class="crt-glass">
+          <header>
+            <div><span class="eyebrow">LOCAL RULES × AI PERFORMANCE</span><h1>日留学部模拟器</h1></div>
+            <div id="status" class="status"></div>
+          </header>
+          <main>
+            <aside>
+              <div class="month-card"><small>当前进度</small><strong id="month">第 1 月</strong><span>一年 Demo / 12 个月</span></div>
+              <nav id="nav"></nav>
+              <button class="ghost" onclick="setUi('StartMenu')">返回主菜单</button>
+            </aside>
+            <section id="screen" class="screen"></section>
+          </main>
+          <div id="transmission" class="transmission"></div>
+          <div id="toast"></div>
+        </div>
+        <div id="saveHud" class="save-hud"></div>
+      </div>
+      <div class="monitor-neck"></div>
+      <div class="monitor-stand"></div>
+    </div>
+    <div class="desk">
+      <div class="keyboard"></div>
+      <div class="desk-note"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

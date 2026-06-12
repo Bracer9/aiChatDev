@@ -1,0 +1,45 @@
+[
+  {
+    "id": "classroom_daytime",
+    "name": "白天的普通教室",
+    "description": "日间课程前后使用的普通教室，窗外光线明亮，适合课堂、课后闲聊和一般校园互动。",
+    "backgroundPath": "/assets/backgrounds/classroom_daytime.png",
+    "tags": ["普通教室", "白天", "校园", "课堂", "闲聊"],
+    "isDefault": true
+  },
+  {
+    "id": "classroom_dawn",
+    "name": "晨光中的普通教室",
+    "description": "清晨或傍晚光线斜照进普通教室，适合较安静、稍有距离感或带有余韵的对话。",
+    "backgroundPath": "/assets/backgrounds/classroom_dawn.png",
+    "tags": ["普通教室", "清晨", "傍晚", "安静", "余韵"]
+  },
+  {
+    "id": "classroom_night",
+    "name": "夜晚的普通教室",
+    "description": "夜间仍亮着灯的普通教室，适合赶作业、深入交谈、倾听烦恼或紧张情境。",
+    "backgroundPath": "/assets/backgrounds/classroom_night.png",
+    "tags": ["普通教室", "夜晚", "深入交谈", "倾听", "紧张"]
+  },
+  {
+    "id": "magicalGirls_seminar_morning",
+    "name": "清晨的魔法少女研究室",
+    "description": "摆放着动画资料与角色商品的研究室，清晨氛围清爽，适合研究会日常和初步交流。",
+    "backgroundPath": "/assets/backgrounds/magicalGirls_seminar_morning.png",
+    "tags": ["研究室", "魔法少女", "清晨", "资料", "日常"]
+  },
+  {
+    "id": "magicalGirls_seminar_dawn",
+    "name": "暮色中的魔法少女研究室",
+    "description": "暮色笼罩的研究室，桌面仍散放着资料，适合课后闲谈、共同整理或关系逐渐靠近的场景。",
+    "backgroundPath": "/assets/backgrounds/magicalGirls_seminar_dawn.png",
+    "tags": ["研究室", "魔法少女", "傍晚", "课后", "共同整理"]
+  },
+  {
+    "id": "magicalGirls_seminar_night",
+    "name": "夜晚的魔法少女研究室",
+    "description": "夜色中的研究室只剩少量灯光，适合认真倾听、秘密话题、共同赶工或重要关系互动。",
+    "backgroundPath": "/assets/backgrounds/magicalGirls_seminar_night.png",
+    "tags": ["研究室", "魔法少女", "夜晚", "倾听", "秘密", "重要互动"]
+  }
+]

@@ -1,0 +1,13 @@
+﻿[
+  {"id":"first_report","name":"第一次レポート","description":"第一次报告的截止日期，比想象中更快地出现在课程网站上。","startMonth":2,"endMonth":2},
+  {"id":"part_time_hired","name":"便利店录用","description":"便利店店长看完排班表，点头说下周可以来试班。","startMonth":1,"endMonth":3},
+  {"id":"hear_melody","name":"听出旋律结构","description":"某个夜里，你第一次清楚地听出了旋律背后的结构。","startMonth":1,"endMonth":12},
+  {"id":"seminar_meeting","name":"ゼミ初见","description":"在魔法少女研究ゼミ的第一次说明会上，你注意到角落里安静整理资料的女生。","startMonth":1,"endMonth":12,"requiredSeminarIds":["magical_girl"],"relatedCharacterIds":["seminar_girl"],"setFlags":["met.seminar_girl"]},
+  {"id":"workshop_team","name":"Workshop 组队","description":"你与她被分进同一个 workshop 小组。她的笔记本角落画着一个奇妙的角色。","startMonth":1,"endMonth":12,"requiredSeminarIds":["magical_girl"],"relatedCharacterIds":["seminar_girl"],"requiredFlags":["met.seminar_girl"],"setFlags":["event.workshop_team"]},
+  {"id":"campus_festival","name":"校园祭准备","description":"校园祭执行委员会开始征集展示与舞台企划。","startMonth":8,"endMonth":10},
+  {"id":"ai_miku_seed","name":"未命名的歌声","description":"熬夜后的屏幕里，一段尚未命名的歌声似乎在等待你回应。","startMonth":1,"endMonth":12},
+  {"id":"career_center","name":"Career Center 说明会","description":"Career Center 的早期说明会提醒你：准备从来不会自动开始。","startMonth":3,"endMonth":6},
+  {"id":"hospitalized","name":"强制入院","description":"你在勉强撑过一天后倒下，醒来时已经躺在医院里。","startMonth":1,"endMonth":12},
+  {"id":"burnout","name":"精神透支","description":"你决定暂时停止证明自己，窗帘拉上后，时间安静了下来。","startMonth":1,"endMonth":12},
+  {"id":"financial_crisis","name":"经济危机","description":"月底扣款后，余额跌破 0。你第一次认真盯着银行 App 的数字发呆。","startMonth":1,"endMonth":12}
+]
